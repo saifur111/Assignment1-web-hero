@@ -61,3 +61,18 @@ body{
 .header-right-image{
     width: 55rem;
 }
+.about{
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 5rem 0 15rem;
+    margin-right: 0;
+    width: 100%;
+}
+.about-left ,.about-right{
+    display: inline-block;
+    width: 48%;
+}
+.about-left-image{
+    width: 27rem;
+}
