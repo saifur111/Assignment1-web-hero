@@ -22,7 +22,7 @@ body{
     margin: 0 auto;
 }
 .header{
-    padding: 3rem;
+    padding: 6rem 3rem;
 }
 .header-left ,.header-right{
     display: inline-block;
@@ -34,11 +34,17 @@ body{
 .header-left-heading{
     font-size: 5rem;
     color: #575757;
+    margin-top:11rem;
+}
+.header-left-heading-color-text{
+    color: #FB8D48;
 }
 .header-left-small-text{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #838382;
+    margin-bottom: 7rem;
+    width: 90%;
 }
 .header-left-button{
     text-decoration: none;
@@ -51,4 +57,7 @@ body{
 }
 .header-right{
     vertical-align: top;
+}
+.header-right-image{
+    width: 55rem;
 }
