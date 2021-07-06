@@ -116,3 +116,18 @@ body{
     margin-bottom: 4rem;
     text-align: center;
 }
+.recipie-heading-footer{
+  
+    display: flex;
+}
+.recipie-heading-footer-common{
+    width: 33%;
+}
+.recipie-heading-footer-img{
+    width: 27rem;
+}
+.recipie-heading-footer-head{
+    font-size: 2.5rem;
+    color: #333030;
+    margin: 3rem 0;
+}
