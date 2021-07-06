@@ -119,6 +119,7 @@ body{
 .recipie-heading-footer{
   
     display: flex;
+    padding-left: 4.5rem;
 }
 .recipie-heading-footer-common{
     width: 33%;
@@ -130,4 +131,20 @@ body{
     font-size: 2.5rem;
     color: #333030;
     margin: 3rem 0;
+}
+.recipie-heading-footer-head:hover{
+    transition: .7S ease;
+    color: #4e4949;  
+}
+.recipie-heading-footer-text{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #575757;
+    padding-right: 4rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.recipie-heading-footer-text:hover{
+    transition: .7S ease;
+    color: #333030; 
 }
