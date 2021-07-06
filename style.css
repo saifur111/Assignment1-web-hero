@@ -51,10 +51,11 @@ body{
     color: #fff;
     background: linear-gradient(to right, #FB924A, #FD4E30);
     padding: 2rem 4rem;
-   font-size: 1.4rem;
-   font-weight: bold;
-   border-radius: 3.2rem;
-   transition: .2s all ease-in-out;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 3.2rem;
+    transition: .2s all ease-in-out;
+    box-shadow: -1px 4px 12px #FB924A, -1px -2px 12px #FB924A;
 }
 .btn:hover{
     background: linear-gradient(to right, #FD4E30,#FB924A);
@@ -97,9 +98,7 @@ body{
     margin-bottom: 7rem;
     width: 90%;
 }
-.about-right-btn{
-    box-shadow: -1px 4px 12px #FB924A, -1px -2px 12px #FB924A;
-}
+
 .recipie-heading-head{
     font-size: 4rem;
     color: #707070;
@@ -119,13 +118,18 @@ body{
 .recipie-heading-footer{
   
     display: flex;
+    width:100%;
     padding-left: 4.5rem;
 }
 .recipie-heading-footer-common{
-    width: 33%;
+    width: 30%;
+    padding: 2rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    box-shadow: -1px 4px 14px #8f8888c7, -1px -2px 14px #8f8888e7;
 }
 .recipie-heading-footer-img{
-    width: 27rem;
+    width: 100%;
 }
 .recipie-heading-footer-head{
     font-size: 2.5rem;
@@ -150,7 +154,9 @@ body{
 }
 .site-review{
     display: flex;
-    padding: 6rem 0rem 6rem 2.5rem;
+    margin: 6rem 0rem 7rem 4.5rem;
+    border-radius: 3rem;
+    box-shadow: -1px 4px 14px #8f8888c7, -1px -2px 14px #8f8888e7;
 }
 .site-review-common{
     width: 33%;
